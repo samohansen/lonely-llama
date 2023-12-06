@@ -54,7 +54,7 @@ const PromotionBanner = (props: IPromotionBanner): JSX.Element => {
             )}
             {linkProps && (
               <button
-                className="text-white bg-brand-primary hover:bg-brand-highlight hover:shadow-lg mt-2 z-10 rounded-md py-3 px-4 font-bold"
+                className="text-white bg-brand-primary hover:bg-brand-highlight hover:shadow-lg mt-2 z-10 rounded-full py-4 px-6 font-bold"
                 onClick={() => {
                   router.push(linkProps.link);
                 }}
