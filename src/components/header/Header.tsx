@@ -4,6 +4,7 @@ import Link from "next/link";
 import CartMenu from "./cart/CartMenu";
 import LlamaIconText from "../icons/llama-icon-text";
 import { Suspense } from "react";
+import SearchModal from "../search/SearchModal";
 
 
 const Header = (): JSX.Element => {
@@ -19,7 +20,8 @@ const Header = (): JSX.Element => {
         <div className="flex items-center self-center">
           <Suspense>
             <div>
-              <NavBar />
+              {/* <NavBar /> */}
+              <SearchModal />
             </div>
           </Suspense>
         </div>

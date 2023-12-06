@@ -2,6 +2,7 @@ import PromotionBanner from "../components/promotion-banner/PromotionBanner";
 import FeaturedProducts from "../components/featured-products/FeaturedProducts";
 import { Suspense } from "react";
 
+
 export default async function Home() {
   const promotion = {
     title: "Adventure Gear Built for a Lifetime",
