@@ -1,7 +1,7 @@
 "use server";
 import Link from "next/link";
 import CartMenu from "../cart/CartMenu";
-import EpIcon from "../../icons/ep-icon";
+import LlamaIcon from "../../icons/llama-icon";
 import { MobileNavBarButton } from "./MobileNavBarButton";
 import { getServerSideImplicitClient } from "../../../lib/epcc-server-side-implicit-client";
 import { buildSiteNavigation } from "../../../lib/build-site-navigation";
@@ -18,7 +18,7 @@ export default async function MobileNavBar() {
             <MobileNavBarButton nav={nav} />
           </div>
           <Link href="/" aria-label="Go to home page">
-            <EpIcon className="min-w-10 relative h-10 w-10" />
+            <LlamaIcon  />
           </Link>
           <div className="justify-self-end">
             <div className="flex gap-4">

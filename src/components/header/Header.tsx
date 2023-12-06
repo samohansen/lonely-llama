@@ -4,6 +4,8 @@ import Link from "next/link";
 import CartMenu from "./cart/CartMenu";
 import LlamaIconText from "../icons/llama-icon-text";
 import { Suspense } from "react";
+import SearchModal from "../search/SearchModal";
+import SearchBoxAlgolia from "../search/SearchBoxAlgolia";
 
 
 const Header = (): JSX.Element => {
@@ -15,11 +17,11 @@ const Header = (): JSX.Element => {
       </Suspense>
 
       {/* Md screen and up */}
-      <div className="hidden w-full items-center justify-between md:flex">
-        <div className="flex items-center self-center">
+      <div className="hidden w-full flex justify-between items-center md:flex">
+        <div className="">
           <Suspense>
             <div>
-              <NavBar />
+              <SearchModal />
             </div>
           </Suspense>
         </div>
