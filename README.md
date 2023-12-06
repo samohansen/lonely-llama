@@ -1,4 +1,4 @@
-# Elastic Path Demo Storefront -- Samuel Hansen
+# Elastic Path Demo Storefront
 
 Welcome to my outdoor outfitters store, "Lonely Llama"! This is a Next.js frontend that integrates with 
 Elastic Path's backend services to handle the products, cart, search/filtering, and checkout experiences.
