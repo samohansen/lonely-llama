@@ -9,9 +9,9 @@ export default {
       },
       colors: {
         brand: {
-          primary: "#2BCC7E",
-          secondary: "#144E31",
-          highlight: "#56DC9B",
+          primary: "#210559", // #210559 for llama logo (formerly #2BCC7E)
+          secondary: "#16033A",
+          highlight: "#6018F2",
           primaryAlt: "#EA7317",
           secondaryAlt: "#ffcb47",
         },

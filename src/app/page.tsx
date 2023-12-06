@@ -4,9 +4,10 @@ import { Suspense } from "react";
 
 export default async function Home() {
   const promotion = {
-    title: "Your Elastic Path storefront",
+    title: "Adventure Gear Built for a Lifetime",
     description:
-      "This marks the beginning, embark on the journey of crafting something truly extraordinary, uniquely yours.",
+      "Durable, sustainable products for people who love our planet.",
+    imageHref: "/snowy_bg.jpg",
   };
 
   return (
