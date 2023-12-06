@@ -6,7 +6,7 @@ This project was generated with (the amazing) [Elastic Path Commerce Cloud CLI](
 
 ## Comments
 This storefront was generated using the CLI and then customized to include search from Algolia. The integrations for this particular app were included as a part of the CLI 
-code generation process. I'll also include a link to a vanilla React application that accomplishes the same thing.
+code generation process. For my own learning benefit, I also created a vanilla React application to accomplish the same thing.
 
 ## How to Run Locally
 1. Clone this repo into the location of your choice: `git clone https://github.com/samohansen/lonely-llama.git`
